@@ -1,0 +1,12 @@
+{
+  "bots": [
+    {
+      "token": "8267838655:AAFSbYR0rfIZg-_bcDFdKt8SiHOeOv5PvjE",
+      "name": "EMon Bot"
+    },
+    {
+      "token": "9876543210:CCExampleToken2",
+      "name": "Robin Bot"
+    }
+  ]
+}
