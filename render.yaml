@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: multi-telegram-bot
+    env: node
+    region: singapore   # চাইলে বদলাতে পারো: oregon, frankfurt, singapore
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "node index.js"
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+    disk:
+      name: data
+      mountPath: /data
